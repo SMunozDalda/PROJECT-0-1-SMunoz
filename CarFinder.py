@@ -33,6 +33,5 @@ def main():
         else:
             print("\nInvalid input. Please enter 1 or 2.\n")
 
-    # Wait for keypress before closing (for Windows CMD)
-    input("\nProgram ended; press any key or close the console...")
+    input()
 
