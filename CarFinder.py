@@ -33,5 +33,7 @@ def main():
         else:
             print("\nInvalid input. Please enter 1 or 2.\n")
 
-    input()
+    input("\nProgram ended; press any key or close the console...")
 
+if __name__ == "__main__":
+    main()
