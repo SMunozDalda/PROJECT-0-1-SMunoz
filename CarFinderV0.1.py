@@ -29,11 +29,10 @@ def main():
             print_vehicles()
         elif user_input == "2":
             print("\nThank you for using the AutoCountry Vehicle Finder, good-bye!")
+            input("\n")
             break
         else:
             print("\nInvalid input. Please enter 1 or 2.\n")
-
-    input("\nProgram ended; press any key or close the console...")
 
 if __name__ == "__main__":
     main()
